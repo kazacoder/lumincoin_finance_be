@@ -8,5 +8,6 @@ services:
       - '3333:3333'
     volumes:
       - .:/app
+      - ./data:/app/data
       - /app/node_modules
 
