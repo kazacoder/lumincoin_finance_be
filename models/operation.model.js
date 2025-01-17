@@ -29,6 +29,9 @@ class OperationModel {
                     dateFilterTo = moment(dateTo);
                 }
                 break;
+            default:
+                dateFilterFrom = null;
+                dateFilterTo = null;
         }
 
         // do filter
