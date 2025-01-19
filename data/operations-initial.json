@@ -68,5 +68,15 @@
     "amount": 6000,
     "date": "2022-04-03",
     "comment": "Стоматолог"
+  },
+  {
+    "id": 8,
+    "user_id": 2,
+    "category_expense_id": null,
+    "category_income_id": 2,
+    "type": "income",
+    "amount": 100000,
+    "date": "2025-01-01",
+    "comment": "Зарплата"
   }
 ]
